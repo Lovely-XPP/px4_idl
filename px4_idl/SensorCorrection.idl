@@ -1,5 +1,5 @@
 // generated from rosidl_adapter/resource/msg.idl.em
-// with input from px4_msg/c:/AuFlyers/px4/rosidl/px4_msg/msg/SensorCorrection.msg
+// with input from px4_msg/c:/AuFlyers/px4/px4_idl/px4_msg_modified/msg/SensorCorrection.msg
 // generated code does not contain a copyright notice
 
 
@@ -8,8 +8,6 @@ module px4_msg {
     typedef uint32 uint32__4[4];
     typedef float float__4[4];
     typedef float float__3[3];
-    @verbatim (language="comment", text=
-      "Sensor corrections in SI-unit form for the voted sensor")
     struct SensorCorrection {
       @verbatim (language="comment", text=
         "time since system start (microseconds)")

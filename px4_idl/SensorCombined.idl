@@ -1,5 +1,5 @@
 // generated from rosidl_adapter/resource/msg.idl.em
-// with input from px4_msg/c:/AuFlyers/px4/rosidl/px4_msg/msg/SensorCombined.msg
+// with input from px4_msg/c:/AuFlyers/px4/px4_idl/px4_msg_modified/msg/SensorCombined.msg
 // generated code does not contain a copyright notice
 
 
@@ -14,10 +14,6 @@ module px4_msg {
       const uint8 CLIPPING_Y = 2;
       const uint8 CLIPPING_Z = 4;
     };
-    @verbatim (language="comment", text=
-      "Sensor readings in SI-unit form." "\n"
-      "These fields are scaled and offset-compensated where possible and do not" "\n"
-      "change with board revisions and sensor updates.")
     struct SensorCombined {
       @verbatim (language="comment", text=
         "time since system start (microseconds)")

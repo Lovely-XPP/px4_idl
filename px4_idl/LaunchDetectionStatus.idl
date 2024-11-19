@@ -1,5 +1,5 @@
 // generated from rosidl_adapter/resource/msg.idl.em
-// with input from px4_msg/c:/AuFlyers/px4/rosidl/px4_msg/msg/LaunchDetectionStatus.msg
+// with input from px4_msg/c:/AuFlyers/px4/px4_idl/px4_msg_modified/msg/LaunchDetectionStatus.msg
 // generated code does not contain a copyright notice
 
 
@@ -16,8 +16,6 @@ module px4_msg {
         "launch detected, use normal takeoff/flying configuration")
       const uint8 STATE_FLYING = 2;
     };
-    @verbatim (language="comment", text=
-      "Status of the launch detection state machine (fixed-wing only)")
     struct LaunchDetectionStatus {
       @verbatim (language="comment", text=
         "time since system start (microseconds)")

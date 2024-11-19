@@ -1,5 +1,5 @@
 // generated from rosidl_adapter/resource/msg.idl.em
-// with input from px4_msg/c:/AuFlyers/px4/rosidl/px4_msg/msg/UlogStreamAck.msg
+// with input from px4_msg/c:/AuFlyers/px4/px4_idl/px4_msg_modified/msg/UlogStreamAck.msg
 // generated code does not contain a copyright notice
 
 
@@ -13,9 +13,6 @@ module px4_msg {
         "maximum amount of tries to (re-)send a message, each time waiting ACK_TIMEOUT ms")
       const int32 ACK_MAX_TRIES = 50;
     };
-    @verbatim (language="comment", text=
-      "Ack a previously sent ulog_stream message that had" "\n"
-      "the NEED_ACK flag set")
     struct UlogStreamAck {
       @verbatim (language="comment", text=
         "time since system start (microseconds)")

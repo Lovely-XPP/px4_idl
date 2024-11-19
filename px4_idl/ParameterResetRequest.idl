@@ -1,5 +1,5 @@
 // generated from rosidl_adapter/resource/msg.idl.em
-// with input from px4_msg/c:/AuFlyers/px4/rosidl/px4_msg/msg/ParameterResetRequest.msg
+// with input from px4_msg/c:/AuFlyers/px4/px4_idl/px4_msg_modified/msg/ParameterResetRequest.msg
 // generated code does not contain a copyright notice
 
 
@@ -8,8 +8,6 @@ module px4_msg {
     module ParameterResetRequest_Constants {
       const uint8 ORB_QUEUE_LENGTH = 4;
     };
-    @verbatim (language="comment", text=
-      "ParameterResetRequest : Used by the primary to reset one or all parameter value(s) on the remote")
     struct ParameterResetRequest {
       uint64 timestamp;
 

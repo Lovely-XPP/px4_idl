@@ -1,5 +1,5 @@
 // generated from rosidl_adapter/resource/msg.idl.em
-// with input from px4_msg/c:/AuFlyers/px4/rosidl/px4_msg/msg/Ekf2Timestamps.msg
+// with input from px4_msg/c:/AuFlyers/px4/px4_idl/px4_msg_modified/msg/Ekf2Timestamps.msg
 // generated code does not contain a copyright notice
 
 
@@ -10,9 +10,6 @@ module px4_msg {
         "(0x7fff) If one of the relative timestamps" "\n"        "is set to this value, it means the associated sensor values did not update")
       const int16 RELATIVE_TIMESTAMP_INVALID = 32767;
     };
-    @verbatim (language="comment", text=
-      "this message contains the (relative) timestamps of the sensor inputs used by EKF2." "\n"
-      "It can be used for reproducible replay.")
     struct Ekf2Timestamps {
       @verbatim (language="comment", text=
         "the timestamp field is the ekf2 reference time and matches the timestamp of" "\n"

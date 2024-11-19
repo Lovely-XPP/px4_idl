@@ -1,16 +1,10 @@
 // generated from rosidl_adapter/resource/msg.idl.em
-// with input from px4_msg/c:/AuFlyers/px4/rosidl/px4_msg/msg/VehicleGlobalPosition.msg
+// with input from px4_msg/c:/AuFlyers/px4/px4_idl/px4_msg_modified/msg/VehicleGlobalPosition.msg
 // generated code does not contain a copyright notice
 
 
 module px4_msg {
   module msg {
-    @verbatim (language="comment", text=
-      "Fused global position in WGS84." "\n"
-      "This struct contains global position estimation. It is not the raw GPS" "\n"
-      "measurement (@see vehicle_gps_position). This topic is usually published by the position" "\n"
-      "estimator, which will take more sources of information into account than just GPS," "\n"
-      "e.g. control inputs of the vehicle in a Kalman-filter implementation.")
     struct VehicleGlobalPosition {
       @verbatim (language="comment", text=
         "time since system start (microseconds)")

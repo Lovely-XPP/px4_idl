@@ -1,5 +1,5 @@
 // generated from rosidl_adapter/resource/msg.idl.em
-// with input from px4_msg/c:/AuFlyers/px4/rosidl/px4_msg/msg/RegisterExtComponentRequest.msg
+// with input from px4_msg/c:/AuFlyers/px4/px4_idl/px4_msg_modified/msg/RegisterExtComponentRequest.msg
 // generated code does not contain a copyright notice
 
 
@@ -12,8 +12,6 @@ module px4_msg {
       const uint16 LATEST_PX4_ROS2_API_VERSION = 1;
       const uint8 ORB_QUEUE_LENGTH = 2;
     };
-    @verbatim (language="comment", text=
-      "Request to register an external component")
     struct RegisterExtComponentRequest {
       @verbatim (language="comment", text=
         "time since system start (microseconds)")

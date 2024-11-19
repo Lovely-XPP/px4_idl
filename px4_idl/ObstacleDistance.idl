@@ -1,5 +1,5 @@
 // generated from rosidl_adapter/resource/msg.idl.em
-// with input from px4_msg/c:/AuFlyers/px4/rosidl/px4_msg/msg/ObstacleDistance.msg
+// with input from px4_msg/c:/AuFlyers/px4/px4_idl/px4_msg_modified/msg/ObstacleDistance.msg
 // generated code does not contain a copyright notice
 
 
@@ -15,8 +15,6 @@ module px4_msg {
       const uint8 MAV_DISTANCE_SENSOR_INFRARED = 2;
       const uint8 MAV_DISTANCE_SENSOR_RADAR = 3;
     };
-    @verbatim (language="comment", text=
-      "Obstacle distances in front of the sensor.")
     struct ObstacleDistance {
       @verbatim (language="comment", text=
         "time since system start (microseconds)")

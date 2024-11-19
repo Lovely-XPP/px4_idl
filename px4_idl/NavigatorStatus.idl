@@ -1,5 +1,5 @@
 // generated from rosidl_adapter/resource/msg.idl.em
-// with input from px4_msg/c:/AuFlyers/px4/rosidl/px4_msg/msg/NavigatorStatus.msg
+// with input from px4_msg/c:/AuFlyers/px4/px4_idl/px4_msg_modified/msg/NavigatorStatus.msg
 // generated code does not contain a copyright notice
 
 
@@ -11,9 +11,6 @@ module px4_msg {
         "Target altitude exceeds maximum height above ground")
       const uint8 FAILURE_HAGL = 1;
     };
-    @verbatim (language="comment", text=
-      "Current status of a Navigator mode" "\n"
-      "The possible values of nav_state are defined in the VehicleStatus msg.")
     struct NavigatorStatus {
       @verbatim (language="comment", text=
         "time since system start (microseconds)")

@@ -1,5 +1,5 @@
 // generated from rosidl_adapter/resource/msg.idl.em
-// with input from px4_msg/c:/AuFlyers/px4/rosidl/px4_msg/msg/MavlinkTunnel.msg
+// with input from px4_msg/c:/AuFlyers/px4/px4_idl/px4_msg_modified/msg/MavlinkTunnel.msg
 // generated code does not contain a copyright notice
 
 
@@ -41,8 +41,6 @@ module px4_msg {
         "Registered for STorM32 gimbal controller")
       const uint8 MAV_TUNNEL_PAYLOAD_TYPE_STORM32_RESERVED9 = 209;
     };
-    @verbatim (language="comment", text=
-      "MAV_TUNNEL_PAYLOAD_TYPE enum")
     struct MavlinkTunnel {
       @verbatim (language="comment", text=
         "Time since system start (microseconds)")

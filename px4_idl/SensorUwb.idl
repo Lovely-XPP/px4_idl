@@ -1,13 +1,10 @@
 // generated from rosidl_adapter/resource/msg.idl.em
-// with input from px4_msg/c:/AuFlyers/px4/rosidl/px4_msg/msg/SensorUwb.msg
+// with input from px4_msg/c:/AuFlyers/px4/px4_idl/px4_msg_modified/msg/SensorUwb.msg
 // generated code does not contain a copyright notice
 
 
 module px4_msg {
   module msg {
-    @verbatim (language="comment", text=
-      "UWB distance contains the distance information measured by an ultra-wideband positioning system," "\n"
-      "such as Pozyx or NXP Rddrone.")
     struct SensorUwb {
       @verbatim (language="comment", text=
         "time since system start (microseconds)")

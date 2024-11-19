@@ -1,5 +1,5 @@
 // generated from rosidl_adapter/resource/msg.idl.em
-// with input from px4_msg/c:/AuFlyers/px4/rosidl/px4_msg/msg/VehicleStatus.msg
+// with input from px4_msg/c:/AuFlyers/px4/px4_idl/px4_msg_modified/msg/VehicleStatus.msg
 // generated code does not contain a copyright notice
 
 
@@ -124,8 +124,6 @@ module px4_msg {
         "Failsafes deferred, but would trigger a failsafe")
       const uint8 FAILSAFE_DEFER_STATE_WOULD_FAILSAFE = 2;
     };
-    @verbatim (language="comment", text=
-      "Encodes the system state of the vehicle published by commander")
     struct VehicleStatus {
       @verbatim (language="comment", text=
         "time since system start (microseconds)")

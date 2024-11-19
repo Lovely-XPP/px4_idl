@@ -1,5 +1,5 @@
 // generated from rosidl_adapter/resource/msg.idl.em
-// with input from px4_msg/c:/AuFlyers/px4/rosidl/px4_msg/msg/VehicleLocalPosition.msg
+// with input from px4_msg/c:/AuFlyers/px4/px4_idl/px4_msg_modified/msg/VehicleLocalPosition.msg
 // generated code does not contain a copyright notice
 
 
@@ -15,9 +15,6 @@ module px4_msg {
         "(1 << 1) a flow sensor is used to estimate dist_bottom field (mostly fixed-wing use case)")
       const uint8 DIST_BOTTOM_SENSOR_FLOW = 2;
     };
-    @verbatim (language="comment", text=
-      "Fused local position in NED." "\n"
-      "The coordinate system origin is the vehicle position at the time when the EKF2-module was started.")
     struct VehicleLocalPosition {
       @verbatim (language="comment", text=
         "time since system start (microseconds)")

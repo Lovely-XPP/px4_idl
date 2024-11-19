@@ -1,5 +1,5 @@
 // generated from rosidl_adapter/resource/msg.idl.em
-// with input from px4_msg/c:/AuFlyers/px4/rosidl/px4_msg/msg/VehicleRoi.msg
+// with input from px4_msg/c:/AuFlyers/px4/px4_idl/px4_msg_modified/msg/VehicleRoi.msg
 // generated code does not contain a copyright notice
 
 
@@ -23,8 +23,6 @@ module px4_msg {
       const uint8 ROI_TARGET = 4;
       const uint8 ROI_ENUM_END = 5;
     };
-    @verbatim (language="comment", text=
-      "Vehicle Region Of Interest (ROI)")
     struct VehicleRoi {
       @verbatim (language="comment", text=
         "time since system start (microseconds)")

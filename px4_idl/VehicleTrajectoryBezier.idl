@@ -1,8 +1,8 @@
 // generated from rosidl_adapter/resource/msg.idl.em
-// with input from px4_msg/c:/AuFlyers/px4/rosidl/px4_msg/msg/VehicleTrajectoryBezier.msg
+// with input from px4_msg/c:/AuFlyers/px4/px4_idl/px4_msg_modified/msg/VehicleTrajectoryBezier.msg
 // generated code does not contain a copyright notice
 
-#include "px4_msg/msg/TrajectoryBezier.idl"
+#include "TrajectoryBezier.idl"
 
 module px4_msg {
   module msg {
@@ -16,10 +16,6 @@ module px4_msg {
       const uint8 POINT_4 = 4;
       const uint8 NUMBER_POINTS = 5;
     };
-    @verbatim (language="comment", text=
-      "Vehicle Waypoints Trajectory description. See also MAVLink MAV_TRAJECTORY_REPRESENTATION msg" "\n"
-      "The topic vehicle_trajectory_bezier is used to send a smooth flight path from the" "\n"
-      "companion computer / avoidance module to the position controller.")
     struct VehicleTrajectoryBezier {
       @verbatim (language="comment", text=
         "time since system start (microseconds)")

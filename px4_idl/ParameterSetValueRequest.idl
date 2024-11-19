@@ -1,5 +1,5 @@
 // generated from rosidl_adapter/resource/msg.idl.em
-// with input from px4_msg/c:/AuFlyers/px4/rosidl/px4_msg/msg/ParameterSetValueRequest.msg
+// with input from px4_msg/c:/AuFlyers/px4/px4_idl/px4_msg_modified/msg/ParameterSetValueRequest.msg
 // generated code does not contain a copyright notice
 
 
@@ -8,8 +8,6 @@ module px4_msg {
     module ParameterSetValueRequest_Constants {
       const uint8 ORB_QUEUE_LENGTH = 32;
     };
-    @verbatim (language="comment", text=
-      "ParameterSetValueRequest : Used by a remote or primary to update the value for a parameter at the other end")
     struct ParameterSetValueRequest {
       uint64 timestamp;
 

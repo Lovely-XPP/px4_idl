@@ -1,14 +1,11 @@
 // generated from rosidl_adapter/resource/msg.idl.em
-// with input from px4_msg/c:/AuFlyers/px4/rosidl/px4_msg/msg/CollisionConstraints.msg
+// with input from px4_msg/c:/AuFlyers/px4/px4_idl/px4_msg_modified/msg/CollisionConstraints.msg
 // generated code does not contain a copyright notice
 
 
 module px4_msg {
   module msg {
     typedef float float__2[2];
-    @verbatim (language="comment", text=
-      "Local setpoint constraints in NED frame" "\n"
-      "setting something to NaN means that no limit is provided")
     struct CollisionConstraints {
       @verbatim (language="comment", text=
         "time since system start (microseconds)")

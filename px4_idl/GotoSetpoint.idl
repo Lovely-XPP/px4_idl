@@ -1,18 +1,11 @@
 // generated from rosidl_adapter/resource/msg.idl.em
-// with input from px4_msg/c:/AuFlyers/px4/rosidl/px4_msg/msg/GotoSetpoint.msg
+// with input from px4_msg/c:/AuFlyers/px4/px4_idl/px4_msg_modified/msg/GotoSetpoint.msg
 // generated code does not contain a copyright notice
 
 
 module px4_msg {
   module msg {
     typedef float float__3[3];
-    @verbatim (language="comment", text=
-      "Position and (optional) heading setpoints with corresponding speed constraints" "\n"
-      "Setpoints are intended as inputs to position and heading smoothers, respectively" "\n"
-      "Setpoints do not need to be kinematically consistent" "\n"
-      "Optional heading setpoints may be specified as controlled by the respective flag" "\n"
-      "Unset optional setpoints are not controlled" "\n"
-      "Unset optional constraints default to vehicle specifications")
     struct GotoSetpoint {
       @verbatim (language="comment", text=
         "time since system start (microseconds)")

@@ -1,5 +1,5 @@
 // generated from rosidl_adapter/resource/msg.idl.em
-// with input from px4_msg/c:/AuFlyers/px4/rosidl/px4_msg/msg/TakeoffStatus.msg
+// with input from px4_msg/c:/AuFlyers/px4/px4_idl/px4_msg_modified/msg/TakeoffStatus.msg
 // generated code does not contain a copyright notice
 
 
@@ -13,8 +13,6 @@ module px4_msg {
       const uint8 TAKEOFF_STATE_RAMPUP = 4;
       const uint8 TAKEOFF_STATE_FLIGHT = 5;
     };
-    @verbatim (language="comment", text=
-      "Status of the takeoff state machine currently just available for multicopters")
     struct TakeoffStatus {
       @verbatim (language="comment", text=
         "time since system start (microseconds)")

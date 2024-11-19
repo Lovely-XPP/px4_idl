@@ -1,5 +1,5 @@
 // generated from rosidl_adapter/resource/msg.idl.em
-// with input from px4_msg/c:/AuFlyers/px4/rosidl/px4_msg/msg/PowerButtonState.msg
+// with input from px4_msg/c:/AuFlyers/px4/px4_idl/px4_msg_modified/msg/PowerButtonState.msg
 // generated code does not contain a copyright notice
 
 
@@ -19,8 +19,6 @@ module px4_msg {
         "Button went Up after meeting shutdown button down time")
       const uint8 PWR_BUTTON_STATE_REQUEST_SHUTDOWN = 3;
     };
-    @verbatim (language="comment", text=
-      "power button state notification message")
     struct PowerButtonState {
       @verbatim (language="comment", text=
         "time since system start (microseconds)")

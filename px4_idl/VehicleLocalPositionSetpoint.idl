@@ -1,15 +1,11 @@
 // generated from rosidl_adapter/resource/msg.idl.em
-// with input from px4_msg/c:/AuFlyers/px4/rosidl/px4_msg/msg/VehicleLocalPositionSetpoint.msg
+// with input from px4_msg/c:/AuFlyers/px4/px4_idl/px4_msg_modified/msg/VehicleLocalPositionSetpoint.msg
 // generated code does not contain a copyright notice
 
 
 module px4_msg {
   module msg {
     typedef float float__3[3];
-    @verbatim (language="comment", text=
-      "Local position setpoint in NED frame" "\n"
-      "Telemetry of PID position controller to monitor tracking." "\n"
-      "NaN means the state was not controlled")
     struct VehicleLocalPositionSetpoint {
       @verbatim (language="comment", text=
         "time since system start (microseconds)")

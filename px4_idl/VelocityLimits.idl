@@ -1,12 +1,10 @@
 // generated from rosidl_adapter/resource/msg.idl.em
-// with input from px4_msg/c:/AuFlyers/px4/rosidl/px4_msg/msg/VelocityLimits.msg
+// with input from px4_msg/c:/AuFlyers/px4/px4_idl/px4_msg_modified/msg/VelocityLimits.msg
 // generated code does not contain a copyright notice
 
 
 module px4_msg {
   module msg {
-    @verbatim (language="comment", text=
-      "Velocity and yaw rate limits for a multicopter position slow mode only")
     struct VelocityLimits {
       @verbatim (language="comment", text=
         "time since system start (microseconds)")

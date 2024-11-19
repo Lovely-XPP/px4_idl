@@ -1,5 +1,5 @@
 // generated from rosidl_adapter/resource/msg.idl.em
-// with input from px4_msg/c:/AuFlyers/px4/rosidl/px4_msg/msg/VtolVehicleStatus.msg
+// with input from px4_msg/c:/AuFlyers/px4/px4_idl/px4_msg_modified/msg/VtolVehicleStatus.msg
 // generated code does not contain a copyright notice
 
 
@@ -12,8 +12,6 @@ module px4_msg {
       const uint8 VEHICLE_VTOL_STATE_MC = 3;
       const uint8 VEHICLE_VTOL_STATE_FW = 4;
     };
-    @verbatim (language="comment", text=
-      "VEHICLE_VTOL_STATE, should match 1:1 MAVLinks's MAV_VTOL_STATE")
     struct VtolVehicleStatus {
       @verbatim (language="comment", text=
         "time since system start (microseconds)")

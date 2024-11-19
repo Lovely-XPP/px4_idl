@@ -1,5 +1,5 @@
 // generated from rosidl_adapter/resource/msg.idl.em
-// with input from px4_msg/c:/AuFlyers/px4/rosidl/px4_msg/msg/ActuatorMotors.msg
+// with input from px4_msg/c:/AuFlyers/px4/px4_idl/px4_msg_modified/msg/ActuatorMotors.msg
 // generated code does not contain a copyright notice
 
 
@@ -10,8 +10,6 @@ module px4_msg {
       const uint8 ACTUATOR_FUNCTION_MOTOR1 = 101;
       const uint8 NUM_CONTROLS = 12;
     };
-    @verbatim (language="comment", text=
-      "Motor control message")
     struct ActuatorMotors {
       @verbatim (language="comment", text=
         "time since system start (microseconds)")

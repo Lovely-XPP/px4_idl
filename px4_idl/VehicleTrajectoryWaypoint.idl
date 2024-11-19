@@ -1,8 +1,8 @@
 // generated from rosidl_adapter/resource/msg.idl.em
-// with input from px4_msg/c:/AuFlyers/px4/rosidl/px4_msg/msg/VehicleTrajectoryWaypoint.msg
+// with input from px4_msg/c:/AuFlyers/px4/px4_idl/px4_msg_modified/msg/VehicleTrajectoryWaypoint.msg
 // generated code does not contain a copyright notice
 
-#include "px4_msg/msg/TrajectoryWaypoint.idl"
+#include "TrajectoryWaypoint.idl"
 
 module px4_msg {
   module msg {
@@ -17,10 +17,6 @@ module px4_msg {
       const uint8 POINT_4 = 4;
       const uint8 NUMBER_POINTS = 5;
     };
-    @verbatim (language="comment", text=
-      "Vehicle Waypoints Trajectory description. See also MAVLink MAV_TRAJECTORY_REPRESENTATION msg" "\n"
-      "The topic vehicle_trajectory_waypoint_desired is used to send the user desired waypoints from the position controller to the companion computer / avoidance module." "\n"
-      "The topic vehicle_trajectory_waypoint is used to send the adjusted waypoints from the companion computer / avoidance module to the position controller.")
     struct VehicleTrajectoryWaypoint {
       @verbatim (language="comment", text=
         "time since system start (microseconds)")

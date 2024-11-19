@@ -1,12 +1,10 @@
 // generated from rosidl_adapter/resource/msg.idl.em
-// with input from px4_msg/c:/AuFlyers/px4/rosidl/px4_msg/msg/LandingTargetPose.msg
+// with input from px4_msg/c:/AuFlyers/px4/px4_idl/px4_msg_modified/msg/LandingTargetPose.msg
 // generated code does not contain a copyright notice
 
 
 module px4_msg {
   module msg {
-    @verbatim (language="comment", text=
-      "Relative position of precision land target in navigation (body fixed, north aligned, NED) and inertial (world fixed, north aligned, NED) frames")
     struct LandingTargetPose {
       @verbatim (language="comment", text=
         "time since system start (microseconds)")

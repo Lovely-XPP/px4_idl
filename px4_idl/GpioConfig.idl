@@ -1,5 +1,5 @@
 // generated from rosidl_adapter/resource/msg.idl.em
-// with input from px4_msg/c:/AuFlyers/px4/rosidl/px4_msg/msg/GpioConfig.msg
+// with input from px4_msg/c:/AuFlyers/px4/px4_idl/px4_msg_modified/msg/GpioConfig.msg
 // generated code does not contain a copyright notice
 
 
@@ -40,8 +40,6 @@ module px4_msg {
         "0x0110")
       const uint32 OUTPUT_OPENDRAIN_PULLUP = 272;
     };
-    @verbatim (language="comment", text=
-      "GPIO configuration")
     struct GpioConfig {
       @verbatim (language="comment", text=
         "time since system start (microseconds)")

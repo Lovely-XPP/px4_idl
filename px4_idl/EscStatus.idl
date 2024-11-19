@@ -1,8 +1,8 @@
 // generated from rosidl_adapter/resource/msg.idl.em
-// with input from px4_msg/c:/AuFlyers/px4/rosidl/px4_msg/msg/EscStatus.msg
+// with input from px4_msg/c:/AuFlyers/px4/px4_idl/px4_msg_modified/msg/EscStatus.msg
 // generated code does not contain a copyright notice
 
-#include "px4_msg/msg/EscReport.idl"
+#include "EscReport.idl"
 
 module px4_msg {
   module msg {

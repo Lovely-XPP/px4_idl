@@ -1,5 +1,5 @@
 // generated from rosidl_adapter/resource/msg.idl.em
-// with input from px4_msg/c:/AuFlyers/px4/rosidl/px4_msg/msg/VehicleCommandAck.msg
+// with input from px4_msg/c:/AuFlyers/px4/px4_idl/px4_msg_modified/msg/VehicleCommandAck.msg
 // generated code does not contain a copyright notice
 
 
@@ -37,10 +37,6 @@ module px4_msg {
       const uint16 ARM_AUTH_DENIED_REASON_BAD_WEATHER = 5;
       const uint8 ORB_QUEUE_LENGTH = 4;
     };
-    @verbatim (language="comment", text=
-      "Vehicle Command Ackonwledgement uORB message." "\n"
-      "Used for acknowledging the vehicle command being received." "\n"
-      "Follows the MAVLink COMMAND_ACK message definition")
     struct VehicleCommandAck {
       @verbatim (language="comment", text=
         "time since system start (microseconds)")

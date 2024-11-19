@@ -1,16 +1,11 @@
 // generated from rosidl_adapter/resource/msg.idl.em
-// with input from px4_msg/c:/AuFlyers/px4/rosidl/px4_msg/msg/TrajectorySetpoint.msg
+// with input from px4_msg/c:/AuFlyers/px4/px4_idl/px4_msg_modified/msg/TrajectorySetpoint.msg
 // generated code does not contain a copyright notice
 
 
 module px4_msg {
   module msg {
     typedef float float__3[3];
-    @verbatim (language="comment", text=
-      "Trajectory setpoint in NED frame" "\n"
-      "Input to PID position controller." "\n"
-      "Needs to be kinematically consistent and feasible for smooth flight." "\n"
-      "setting a value to NaN means the state should not be controlled")
     struct TrajectorySetpoint {
       @verbatim (language="comment", text=
         "time since system start (microseconds)")

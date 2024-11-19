@@ -1,5 +1,5 @@
 // generated from rosidl_adapter/resource/msg.idl.em
-// with input from px4_msg/c:/AuFlyers/px4/rosidl/px4_msg/msg/ConfigOverrides.msg
+// with input from px4_msg/c:/AuFlyers/px4/px4_idl/px4_msg_modified/msg/ConfigOverrides.msg
 // generated code does not contain a copyright notice
 
 
@@ -10,8 +10,6 @@ module px4_msg {
       const int8 SOURCE_TYPE_MODE_EXECUTOR = 1;
       const uint8 ORB_QUEUE_LENGTH = 4;
     };
-    @verbatim (language="comment", text=
-      "Configurable overrides by (external) modes or mode executors")
     struct ConfigOverrides {
       @verbatim (language="comment", text=
         "time since system start (microseconds)")

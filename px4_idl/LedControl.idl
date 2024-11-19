@@ -1,5 +1,5 @@
 // generated from rosidl_adapter/resource/msg.idl.em
-// with input from px4_msg/c:/AuFlyers/px4/rosidl/px4_msg/msg/LedControl.msg
+// with input from px4_msg/c:/AuFlyers/px4/px4_idl/px4_msg_modified/msg/LedControl.msg
 // generated code does not contain a copyright notice
 
 
@@ -42,9 +42,6 @@ module px4_msg {
         "needs to match BOARD_MAX_LEDS")
       const uint8 ORB_QUEUE_LENGTH = 8;
     };
-    @verbatim (language="comment", text=
-      "LED control: control a single or multiple LED's." "\n"
-      "These are the externally visible LED's, not the board LED's")
     struct LedControl {
       @verbatim (language="comment", text=
         "time since system start (microseconds)")

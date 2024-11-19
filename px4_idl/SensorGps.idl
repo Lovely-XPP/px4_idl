@@ -1,5 +1,5 @@
 // generated from rosidl_adapter/resource/msg.idl.em
-// with input from px4_msg/c:/AuFlyers/px4/rosidl/px4_msg/msg/SensorGps.msg
+// with input from px4_msg/c:/AuFlyers/px4/px4_idl/px4_msg_modified/msg/SensorGps.msg
 // generated code does not contain a copyright notice
 
 
@@ -27,9 +27,6 @@ module px4_msg {
       const uint8 RTCM_MSG_USED_NOT_USED = 1;
       const uint8 RTCM_MSG_USED_USED = 2;
     };
-    @verbatim (language="comment", text=
-      "GPS position in WGS84 coordinates." "\n"
-      "the field 'timestamp' is for the position & velocity (microseconds)")
     struct SensorGps {
       @verbatim (language="comment", text=
         "time since system start (microseconds)")

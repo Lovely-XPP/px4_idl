@@ -1,5 +1,5 @@
 // generated from rosidl_adapter/resource/msg.idl.em
-// with input from px4_msg/c:/AuFlyers/px4/rosidl/px4_msg/msg/OrbitStatus.msg
+// with input from px4_msg/c:/AuFlyers/px4/px4_idl/px4_msg_modified/msg/OrbitStatus.msg
 // generated code does not contain a copyright notice
 
 
@@ -13,8 +13,6 @@ module px4_msg {
       const uint8 ORBIT_YAW_BEHAVIOUR_RC_CONTROLLED = 4;
       const uint8 ORBIT_YAW_BEHAVIOUR_UNCHANGED = 5;
     };
-    @verbatim (language="comment", text=
-      "ORBIT_YAW_BEHAVIOUR")
     struct OrbitStatus {
       @verbatim (language="comment", text=
         "time since system start (microseconds)")

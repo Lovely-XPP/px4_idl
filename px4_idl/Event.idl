@@ -1,5 +1,5 @@
 // generated from rosidl_adapter/resource/msg.idl.em
-// with input from px4_msg/c:/AuFlyers/px4/rosidl/px4_msg/msg/Event.msg
+// with input from px4_msg/c:/AuFlyers/px4/px4_idl/px4_msg_modified/msg/Event.msg
 // generated code does not contain a copyright notice
 
 
@@ -9,8 +9,6 @@ module px4_msg {
     module Event_Constants {
       const uint8 ORB_QUEUE_LENGTH = 16;
     };
-    @verbatim (language="comment", text=
-      "Events interface")
     struct Event {
       @verbatim (language="comment", text=
         "time since system start (microseconds)")

@@ -1,5 +1,5 @@
 // generated from rosidl_adapter/resource/msg.idl.em
-// with input from px4_msg/c:/AuFlyers/px4/rosidl/px4_msg/msg/BatteryStatus.msg
+// with input from px4_msg/c:/AuFlyers/px4/px4_idl/px4_msg_modified/msg/BatteryStatus.msg
 // generated code does not contain a copyright notice
 
 
@@ -155,8 +155,8 @@ module px4_msg {
       uint8 id;
 
       @verbatim (language="comment", text=
-        "interface error counter")
-      uint16 interface_error;
+        "_interface error counter")
+      uint16 _interface_error;
 
       @verbatim (language="comment", text=
         "Battery individual cell voltages, 0 if unknown")

@@ -1,5 +1,5 @@
 // generated from rosidl_adapter/resource/msg.idl.em
-// with input from px4_msg/c:/AuFlyers/px4/rosidl/px4_msg/msg/TuneControl.msg
+// with input from px4_msg/c:/AuFlyers/px4/px4_idl/px4_msg_modified/msg/TuneControl.msg
 // generated code does not contain a copyright notice
 
 
@@ -32,9 +32,6 @@ module px4_msg {
       const uint8 VOLUME_LEVEL_MAX = 100;
       const uint8 ORB_QUEUE_LENGTH = 4;
     };
-    @verbatim (language="comment", text=
-      "This message is used to control the tunes, when the tune_id is set to CUSTOM" "\n"
-      "then the frequency, duration are used otherwise those values are ignored.")
     struct TuneControl {
       @verbatim (language="comment", text=
         "time since system start (microseconds)")

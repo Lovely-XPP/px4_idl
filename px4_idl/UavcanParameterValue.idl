@@ -1,13 +1,11 @@
 // generated from rosidl_adapter/resource/msg.idl.em
-// with input from px4_msg/c:/AuFlyers/px4/rosidl/px4_msg/msg/UavcanParameterValue.msg
+// with input from px4_msg/c:/AuFlyers/px4/px4_idl/px4_msg_modified/msg/UavcanParameterValue.msg
 // generated code does not contain a copyright notice
 
 
 module px4_msg {
   module msg {
     typedef uint8 uint8__17[17];
-    @verbatim (language="comment", text=
-      "UAVCAN-MAVLink parameter bridge response type")
     struct UavcanParameterValue {
       @verbatim (language="comment", text=
         "time since system start (microseconds)")

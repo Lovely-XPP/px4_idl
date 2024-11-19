@@ -1,14 +1,11 @@
 // generated from rosidl_adapter/resource/msg.idl.em
-// with input from px4_msg/c:/AuFlyers/px4/rosidl/px4_msg/msg/TrajectoryWaypoint.msg
+// with input from px4_msg/c:/AuFlyers/px4/px4_idl/px4_msg_modified/msg/TrajectoryWaypoint.msg
 // generated code does not contain a copyright notice
 
 
 module px4_msg {
   module msg {
     typedef float float__3[3];
-    @verbatim (language="comment", text=
-      "Waypoint Trajectory description. See also Mavlink TRAJECTORY msg" "\n"
-      "The topic trajectory_waypoint describe each waypoint defined in vehicle_trajectory_waypoint")
     struct TrajectoryWaypoint {
       @verbatim (language="comment", text=
         "time since system start (microseconds)")

@@ -1,5 +1,5 @@
 // generated from rosidl_adapter/resource/msg.idl.em
-// with input from px4_msg/c:/AuFlyers/px4/rosidl/px4_msg/msg/DistanceSensor.msg
+// with input from px4_msg/c:/AuFlyers/px4/px4_idl/px4_msg_modified/msg/DistanceSensor.msg
 // generated code does not contain a copyright notice
 
 
@@ -60,8 +60,6 @@ module px4_msg {
       const uint8 MODE_ENABLED = 1;
       const uint8 MODE_DISABLED = 2;
     };
-    @verbatim (language="comment", text=
-      "DISTANCE_SENSOR message data")
     struct DistanceSensor {
       @verbatim (language="comment", text=
         "time since system start (microseconds)")
