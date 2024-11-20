@@ -87,7 +87,7 @@ def string_to_idl_wstring_literal(string: str) -> str:
 def get_include_file(base_type: BaseType) -> Optional[str]:
     if base_type.is_primitive_type():
         return None
-    return f'{base_type.pkg_name}/msg/{base_type.type}.idl'
+    return f'{base_type.type}.idl'
 
 
 def get_idl_type(type_: Union[str, Type]) -> str:

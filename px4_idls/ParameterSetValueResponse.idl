@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from px4_msgs/c:/AuFlyers/px4/px4_idl/px4_msgs_modified/msg/ParameterSetValueResponse.msg
+// generated code does not contain a copyright notice
+
+
+module px4_msgs {
+  module msg {
+    module ParameterSetValueResponse_Constants {
+      const uint8 ORB_QUEUE_LENGTH = 4;
+    };
+    struct ParameterSetValueResponse {
+      uint64 timestamp;
+
+      uint64 request_timestamp;
+
+      uint16 parameter_index;
+    };
+  };
+};

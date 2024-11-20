@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from px4_msgs/c:/AuFlyers/px4/px4_idl/px4_msgs_modified/msg/ParameterSetUsedRequest.msg
+// generated code does not contain a copyright notice
+
+
+module px4_msgs {
+  module msg {
+    module ParameterSetUsedRequest_Constants {
+      const uint8 ORB_QUEUE_LENGTH = 64;
+    };
+    struct ParameterSetUsedRequest {
+      uint64 timestamp;
+
+      uint16 parameter_index;
+    };
+  };
+};

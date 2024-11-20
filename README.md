@@ -21,6 +21,12 @@ Therefore, I searched the core module of ROS2 and found [rosidl](https://github.
 
 By rosidl, we can transform .msg files to .idl files.
 
+## C++Messages
+
+If you want to generate C++ Message files further, just run `GenerateCppMessages.bat`. Then, It will generate all C++ Message files from the .idl files.
+
+**Tips: I have renamed the ".cxx" files to ".cpp" files.**
+
 ## Credits
 
 - [px4_msg](https://github.com/PX4/px4_msgs)
