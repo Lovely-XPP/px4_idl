@@ -10,7 +10,6 @@ This repo provide idl files of all px4 messages in [px4_msg repo](https://github
 ## Requirements
 ```bash
 Python >= 3.8
-pathlib
 ```
 
 ## Implement
