@@ -2,7 +2,7 @@ import os
 
 if __name__ == "__main__":
     root_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
-    cpp_messages_dir = os.path.join(root_dir, "CppMessages")
+    cpp_messages_dir = os.path.join(root_dir, "px4_cpps")
 
     # handle with cxx files
     for dirpath, _, filenames in os.walk(cpp_messages_dir):

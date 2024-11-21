@@ -10,7 +10,7 @@ module px4_msgs {
         "time since system start (microseconds)")
       uint64 timestamp;
 
-      uint8 _interface;
+      uint8 __interface;
 
       uint64 io_errors;
 

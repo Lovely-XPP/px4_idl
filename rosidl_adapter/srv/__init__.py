@@ -25,8 +25,8 @@ def convert_srv_to_idl(package_name: str, input_file: Path, output_dir: Path) ->
     print(f'Reading input file: {input_file}')
     content = input_file.read_text(encoding='utf-8')
     srv = parse_service_string(package_name, input_file.stem, content)
-
-    output_file = output_dir / input_file.with_suffix('.idl').name
+    
+    output_file = output_dir / input_file.with_name(input_file.stem + "Service").with_suffix('.idl').name
     abs_output_file = output_file.absolute()
     print(f'Writing output file: {abs_output_file}')
     data: SrvData = {

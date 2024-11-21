@@ -155,8 +155,8 @@ module px4_msgs {
       uint8 id;
 
       @verbatim (language="comment", text=
-        "_interface error counter")
-      uint16 _interface_error;
+        "__interface error counter")
+      uint16 __interface_error;
 
       @verbatim (language="comment", text=
         "Battery individual cell voltages, 0 if unknown")

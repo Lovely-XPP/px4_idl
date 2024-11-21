@@ -23,7 +23,7 @@ module px4_msgs {
       uint64 timestamp;
 
       @verbatim (language="comment", text=
-        "true for RC-Param channels which are _mapped to a param")
+        "true for RC-Param channels which are __mapped to a param")
       boolean__3 valid;
 
       @verbatim (language="comment", text=
@@ -35,7 +35,7 @@ module px4_msgs {
       uint8__51 param_id;
 
       @verbatim (language="comment", text=
-        "scale to _map the RC input [-1, 1] to a parameter value")
+        "scale to __map the RC input [-1, 1] to a parameter value")
       float__3 scale;
 
       @verbatim (language="comment", text=

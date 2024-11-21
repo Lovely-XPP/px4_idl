@@ -21,7 +21,7 @@ module px4_msgs {
       @verbatim (language="comment", text=
         "range: [-1, 1], where 1 means maximum positive position," "\n"
         "-1 maximum negative," "\n"
-        "and NaN _maps to disarmed")
+        "and NaN __maps to disarmed")
       float__8 control;
     };
   };

@@ -57,7 +57,7 @@ module px4_msgs {
       uint8 channel_count;
 
       @verbatim (language="comment", text=
-        "Functions _mapping")
+        "Functions __mapping")
       int8__29 function;
 
       @verbatim (language="comment", text=

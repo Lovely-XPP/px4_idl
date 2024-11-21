@@ -25,8 +25,8 @@ module px4_msgs {
 
       @verbatim (language="comment", text=
         "range: [-1, 1], where 1 means maximum positive thrust," "\n"
-        "-1 maximum negative (if not supported by the output, <0 _maps to NaN)," "\n"
-        "and NaN _maps to disarmed (stop the motors)")
+        "-1 maximum negative (if not supported by the output, <0 __maps to NaN)," "\n"
+        "and NaN __maps to disarmed (stop the motors)")
       float__12 control;
     };
   };

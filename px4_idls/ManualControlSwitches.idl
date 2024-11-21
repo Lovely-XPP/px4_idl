@@ -7,7 +7,7 @@ module px4_msgs {
   module msg {
     module ManualControlSwitches_Constants {
       @verbatim (language="comment", text=
-        "switch is not _mapped")
+        "switch is not __mapped")
       const uint8 SWITCH_POS_NONE = 0;
       @verbatim (language="comment", text=
         "switch activated (value = 1)")

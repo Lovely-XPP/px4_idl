@@ -64,7 +64,7 @@ module px4_msgs {
       uint64 timestamp;
 
       @verbatim (language="comment", text=
-        "Status bit_map 1: Roaming is active")
+        "Status bit__map 1: Roaming is active")
       uint16 status;
 
       @verbatim (language="comment", text=

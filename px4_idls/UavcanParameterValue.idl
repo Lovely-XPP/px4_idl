@@ -12,7 +12,7 @@ module px4_msgs {
       uint64 timestamp;
 
       @verbatim (language="comment", text=
-        "UAVCAN node ID _mapped from MAVLink component ID")
+        "UAVCAN node ID __mapped from MAVLink component ID")
       uint8 node_id;
 
       @verbatim (language="comment", text=

@@ -1,3 +1,6 @@
+# Exclude cpp files
+px4_cpps
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

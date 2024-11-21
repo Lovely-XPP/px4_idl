@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from px4_msgs/c:/AuFlyers/px4/px4_idl/px4_msgs_modified/srv/VehicleCommand.srv
+// generated code does not contain a copyright notice
+
+#include "VehicleCommand.idl"
+#include "VehicleCommandAck.idl"
+
+module px4_msgs {
+  module srv {
+    struct VehicleCommand_Request {
+      px4_msgs::msg::VehicleCommand request;
+    };
+    struct VehicleCommand_Response {
+      px4_msgs::msg::VehicleCommandAck reply;
+    };
+  };
+};

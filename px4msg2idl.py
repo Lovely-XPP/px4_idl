@@ -1,4 +1,5 @@
 from rosidl_adapter.msg import convert_msg_to_idl
+from rosidl_adapter.srv import convert_srv_to_idl
 from pathlib import Path
 import os
 
@@ -10,7 +11,8 @@ if __name__ == "__main__":
     px4_srv_folder = os.path.join(root_dir, "px4_msgs/srv")
     process_msg_folder = os.path.join(root_dir, "px4_msgs_modified/msg")
     process_srv_folder = os.path.join(root_dir, "px4_msgs_modified/srv")
-    output_folder = os.path.join(root_dir, "px4_idls")
+    px4_msg_output_folder = os.path.join(root_dir, "px4_idls")
+    px4_srv_output_folder = os.path.join(root_dir, "px4_idls")
 
     # preprocess msg, fastdds gen not support .idl files with .msg if first line is comment
     # create folders
@@ -31,10 +33,37 @@ if __name__ == "__main__":
                     while "#" in lines[0][0:3]:
                         lines.pop(0)
                     outfile.writelines(lines)
-            convert_msg_to_idl("px4_msgs", Path(msg_modified_filename), Path(output_folder))
+            convert_msg_to_idl("px4_msgs", Path(msg_modified_filename), Path(px4_msg_output_folder))
+
+    # convert .srv files
+    for dirpath, _, filenames in os.walk(px4_srv_folder):
+        for filename in filenames:
+            srv_filename = os.path.join(dirpath, filename)
+            srv_modified_filename = os.path.join(process_srv_folder, filename)
+            with open(srv_filename, 'r', encoding='utf-8') as infile, open(srv_modified_filename, 'w', encoding='utf-8') as outfile:
+                lines = infile.readlines()
+                if lines:  # 确保文件不为空
+                    # 确保文件开头不为注释
+                    while "#" in lines[0][0:3]:
+                        lines.pop(0)
+                    outfile.writelines(lines)
+            convert_srv_to_idl("px4_msgs", Path(srv_modified_filename), Path(px4_srv_output_folder))
     
     # handle strange error
-    for dirpath, _, filenames in os.walk(output_folder):
+    for dirpath, _, filenames in os.walk(px4_msg_output_folder):
+        for filename in filenames:
+            idl_filename = os.path.join(dirpath, filename)
+            with open(idl_filename, 'r', encoding='utf-8') as f:
+                content = f.read()
+                # avoid interface reserver word
+                content = content.replace("interface", "_interface")
+                # avoid map reserver word
+                content = content.replace("map", "_map")
+            with open(idl_filename, 'w', encoding='utf-8') as f:
+                f.write(content)
+
+    # handle strange error
+    for dirpath, _, filenames in os.walk(px4_srv_output_folder):
         for filename in filenames:
             idl_filename = os.path.join(dirpath, filename)
             with open(idl_filename, 'r', encoding='utf-8') as f:
